@@ -11,7 +11,7 @@ Descrizione:
 - font-family: 'Rubik Mono One', sans-serif;
 
 Bonus:
--Nascondiamo la barra di navigazione all'utente e costringiamolo a navigare solo utilizzando i numerini in alto
+- Nascondiamo la barra di navigazione all'utente e costringiamolo a navigare solo utilizzando i numerini in alto
 
 Consigli:
 - Osservate bene le immagini originali in allegato per evitare eventuali grane
