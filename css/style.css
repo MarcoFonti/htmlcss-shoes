@@ -4,3 +4,91 @@
     padding: 0;
     box-sizing: border-box 
 }
+
+/* ! Utility */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Rubik Mono One', sans-serif
+}
+
+/* ? Controllo della pagina */
+html {
+    overflow-y: hidden;
+    scroll-behavior: smooth; 
+}
+
+/* Genitore */
+.parent-son {
+    position: relative;
+    height: 100vh;
+}
+
+/* Figlio */
+.son-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    text-align: center;
+}
+
+/* Colore Sfondi */
+.back-red{
+    background-color: #ff0000;
+}
+
+.back-green {
+    background-color: #008000;
+}
+
+.back-yellow {
+    background-color: #ffff00;
+}
+
+/* Colore Testo */
+.color-green {
+    color: #008000;
+}
+
+.color-yellow {
+    color: #ffff00;
+}
+
+/* Genitore della Navbar */
+.container-navbar {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+}
+
+/* Le mie liste */
+li {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    background-color: #ffffff;
+    margin: 0 5px;
+}
+
+/* Link Interni */
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+}
+
